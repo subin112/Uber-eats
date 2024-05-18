@@ -1,0 +1,167 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+   
+
+header{
+    background-image: url("image/ubereats.png");
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height:100vh;
+
+}
+.nav-bar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-section{
+        display: flex;
+        align-items: center;
+        gap:40px;
+    }
+
+.sign-in-button{
+    color: white;
+     border-radius: 50px;
+     height: 40px;
+     width: 70px;
+     background-color: black;
+}
+.Log-in-btn{
+    color: black;
+     border-radius: 50px;
+     height: 40px;
+     width: 70px;
+     background-color: white;
+}
+
+.banner-containe
+
+
+.banner-container .form1{
+    size: 60px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 60px;
+}
+
+.auth-section-main{
+    width: 50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    
+}
+
+.auth {
+    margin: 70px;
+    margin-left: 0;
+    gap: 50px;
+    
+}
+.auth img{
+    width: 500px;
+
+}
+.auth p { 
+    text-decoration: underline;
+}
+.auth-main{
+         margin-top: 70px;
+         margin-left: -10px;
+}
+.auth-main img{
+    width: 500px;
+}
+.auth-main p{
+    text-decoration: underline;
+}
+.auth-side{
+     margin-top: 70px;
+     margin-left: 60px;
+}
+.auth-side img{
+    width: 500px;
+    align-items: flex-end;
+    align-content: flex-end;
+    float: right;
+}
+.auth-section-main div{
+        font-size: 20px;
+        font-family: norms-bold;
+        font-weight: 20px;
+        box-sizing: border-box;
+}
+.auth-side p{
+    text-decoration: underline;
+}
+.crave-main{
+    display: grid;
+}
+.map img{
+    background-image:  60% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+box-sizing: border-box;
+}
+      
+.banner-container{
+    position: relative;
+    padding: 320px;
+    padding-left: 30px;
+}
+
+.form1{
+    position: absolute;
+}
+
+input{
+    padding: 20px;
+    
+}
+.form1 img{
+    margin-top: 15px;
+
+}
+select{
+    padding: 20px;
+}
+.search-here{
+    padding: 20px;
+}
+   .banner-heading h1{
+    display: flex;
+    padding: 40px;
+    font-size: 60px;
+   }
+   .nav-bar{
+    padding: 0 40px;
+   }
+  form{
+    display: flex;
+    gap: 10px;
+  }
+
+ .clock-img{
+    position: absolute;
+        transform: translate(240px, 17px);
+ }
+
+ .countries ul{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 24px;
+    justify-content: space-around;
+
+ }
+ 
+ 
