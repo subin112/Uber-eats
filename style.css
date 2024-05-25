@@ -8,13 +8,29 @@
 
 header{
     background-image: url("image/ubereats.png");
-    background-size: 60% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
     height:100vh;
+    object-fit: cover;
+    width: 100%;
+    object-fit: contain;
 
 }
+.header-container{
+    gap: 9px;
+    padding: 10px;
+    cursor: pointer;
+    width:21%;
+    transform: translateX(200px);
+    
+    
+}
+    .header-container :hover{
+      color: #817c7c;
+    }
+
+
 .nav-bar{
 
     display: flex;
@@ -27,52 +43,52 @@ header{
         align-items: center;
         gap:40px;
     }
+    .menu{
+        transform: translateX(2px);
+        padding-top: 19px;
+    }
 
 .sign-in-button{
     color: white;
      border-radius: 50px;
      height: 40px;
-     width: 70px;
+     width: 24%;
      background-color: black;
+     font-size: 14px;
+}
+.logo-uber{
+    transform: translateX(-17px);
+    padding-top: 20px;
 }
 .Log-in-btn{
     color: black;
      border-radius: 50px;
      height: 40px;
-     width: 70px;
+     width: 20%;
      background-color: white;
 }
 
-.banner-containe
-
-
-.banner-container .form1{
-    size: 60px;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    width: 60px;
-}
 
 .auth-section-main{
     size: 70px;
-    display:grid;
+    display:flex;
     grid-template-columns: 1fr 1fr 1fr;
     box-sizing: border-box;
-    gap: 0px;
-    padding-right: 50px;
+    gap: 60px;
+    width: 100%;
     margin-top: 10px;
     
 }
 
 .auth {
-    margin: 70px;
+    margin-top: 70px;
     margin-left: 0;
-    gap: 50px;
+    
     
 }
 .auth img{
-    width: 570px;
+    width: 590px;
+    margin:0px;
     
 
 }
@@ -80,50 +96,49 @@ header{
     text-decoration: underline;
 }
 .auth-main{
-         margin-top: 70px;
-         margin-left: -50px;
+         margin-top: 70px; 
+         width: 100%;
+         margin-left:-36px ;
+        object-fit: cover;
+
+        
 }
 .auth-main img{
-    width: 570px;
+    width: 590px;
+    object-fit: cover;
+    
 }
 .auth-main p{
     text-decoration: underline;
 }
 .auth-side{
      margin-top: 70px;
-     margin-left: 10px;
+     margin-left: px;
 }
 .auth-side img{
-    width: 570px;
-    align-items: flex-end;
-    align-content: flex-end;
-    float: right;
-    margin-left: -30px;
+     width: 590px; 
+    /* align-items: flex-end; */
+    /* float: right; */
+    margin-left: -70px;
 
 }
-.auth-section-main div{
-        font-size: 20px;
-        font-family: norms-bold;
-        font-weight: 20px;
-        box-sizing: border-box;
-}
+
 .auth-side p{
     text-decoration: underline;
 }
 .crave-main{
     display: grid;
 }
-.map img{
-    background-image:  60% 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-box-sizing: border-box;
-}
+
+
       
 .banner-container{
     position: relative;
-    padding: 320px;
+    /* padding: 320px;  */
     padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .form1{
@@ -132,8 +147,17 @@ box-sizing: border-box;
 
 input{
     padding: 20px;
-    
+    width: 500px;
+
 }
+.banner-container form ::placeholder{
+    padding: 30px;
+    font-weight: 400;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+   
+
 .form1 img{
     margin-top: 15px;
 
@@ -142,26 +166,60 @@ select{
     padding: 20px;
 }
 .search-here{
-    padding: 20px;
-}
+    padding: 13px;
+    border-radius: 9px;
+    width: 133px;
+    align-items: center;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 10px; 
+    /* border-radius: 12px;    */
+    width: 133px;
+     transform: translateX(-40px);
+    color: white;
+    background-color: black;
+     }
+    
+    
+
    .banner-heading h1{
-    display: flex;
-    padding: 40px;
-    font-size: 60px;
+    display: block;
+    line-height: 4px;
+        font-family: UberMove, sans-serif;
+        line-height:64px;
+        font-size: 52px;
+        transform: translateY(320px);
+        margin-left: 40px;
+        font-weight: 590;
+        max-width: 60%;
+        
    }
    .nav-bar{
     padding: 0 40px;
    }
   form{
     display: flex;
-    gap: 10px;
+    gap: 3px;
   }
 
- .clock-img{
-    position: absolute;
-        transform: translate(240px, 17px);
- }
 
+    
+   
+.banner-container-logo{
+    display: flex;
+transform: translateY(339px);
+    /* transform: translateX(10px); */
+    /* border: none; */
+    /* outline: no */
+}
+
+.banner-container img{
+    position: absolute;
+    transform:  translateX(15px);
+    align-items: center;
+    margin-top: 17px;
+}
  
  .contries-uber{
     justify-content: space-between;
@@ -227,10 +285,14 @@ select{
 .map{
     display: block;
     height: 360px;
+    margin-top: 20px;
+    width: 100%;
+
 }
 .map img{
     padding-left: 35px;
-
+   background-size: cover;
+    box-sizing: border-box;
 }
 .bottom-uber img{
     display:flex;
@@ -358,3 +420,105 @@ select{
     justify-content: center;
     align-items: center;
 }
+
+.banner-container-logo{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+select{
+    transform: translateX(30px);
+}
+    /* align-items: center; */
+    /* justify-content: center; */
+
+.clock-img{
+    
+    display: flex;
+    padding: 20px;
+    width: 500px;
+    cursor:pointer;
+    position: relative;
+}
+.clock-img img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    /* transform: translateX(0px); */
+    
+}
+select {
+    width: 210px;
+    /* transform: translateX(-px); */
+    margin-left: 20px;
+
+}
+ select q{
+    padding-left: 30px;
+ }  
+.form option q1{
+    font-weight: 700;
+    margin: 40px;
+}
+.second{
+    display: flex; 
+    transform: translateY(-290px);
+    gap: 3.89px;
+    padding-left: 43px;
+    font-size: 13px;
+    margin-top: -10px;
+    letter-spacing: 0.12px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-weight: 500;
+    }
+    .second p{
+        text-decoration: underline;
+    }
+    .auth-section-main h1{
+        font-size: 28px;
+        font-family: Ubermove, sans-serif;
+        cursor: pointer;
+            justify-content: center;
+                line-height: 49px;
+    }
+    .auth-section-main p{
+         font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+         font-weight: 450;
+         cursor: pointer;
+         font-size: 15.89px;
+         width: 100%;
+        }
+        .crave-main .me{
+            margin:0;
+            margin-top: 165px;
+            display: flex;
+            justify-content: space-between;
+            text-decoration-style: solid;
+            list-style: 20px;
+            font-weight: 500;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 20px;
+        }
+        .me h1{
+            color: rgb(0, 0, 0);
+display: block;
+font-family: UberMove, sans-serif;;
+font-size: 36px;
+font-weight: 700;
+height: 44px;
+line-height: 44px;
+      }
+      .me span{
+        margin-right: 50px;
+        text-decoration: underline;
+        margin-top: 20px;
+      }
+select #form{
+    justify-content: center;
+    align-items: center;
+}
+
